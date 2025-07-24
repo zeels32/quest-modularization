@@ -1,0 +1,15 @@
+package com.azabost.quest.post_api.remote
+
+import com.azabost.quest.post_api.remote.model.PostsResponse
+import com.azabost.quest.post_api.remote.model.UsersResponse
+import retrofit2.http.GET
+
+interface PostsService {
+
+    @GET("posts")
+    suspend fun getPosts(): PostsResponse
+
+    @GET("users")
+    suspend fun getUsers(): UsersResponse
+
+}

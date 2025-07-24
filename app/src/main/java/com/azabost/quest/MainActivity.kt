@@ -3,8 +3,9 @@ package com.azabost.quest
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import com.azabost.quest.posts.ui.list.PostsActivity
+import com.azabost.quest.post_impl.ui.list.PostsActivity
 import dagger.hilt.android.AndroidEntryPoint
+import kotlin.jvm.java
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

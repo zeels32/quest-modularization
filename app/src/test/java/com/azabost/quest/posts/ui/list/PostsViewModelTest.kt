@@ -2,8 +2,9 @@ package com.azabost.quest.posts.ui.list
 
 import com.azabost.quest.coroutines.MainDispatcherRule
 import com.azabost.quest.logging.TestRecordingLoggerFactory
-import com.azabost.quest.posts.model.Post
-import com.azabost.quest.posts.model.PostsRepository
+import com.azabost.quest.post_api.model.Post
+import com.azabost.quest.post_api.remote.PostsRepository
+import com.azabost.quest.post_impl.ui.list.PostsViewModel
 import com.azabost.quest.posts.model.SimplePostsRepository
 import io.kotest.inspectors.forAny
 import io.kotest.matchers.equals.shouldBeEqual

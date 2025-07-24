@@ -48,7 +48,33 @@ kotlin {
     }
 }
 
+
 dependencies {
+
+
+    implementation(projects.loggingApi)
+    implementation(projects.loggingImpl)
+
+    implementation(projects.analyticsApi)
+    implementation(projects.analyticsImpl)
+
+    implementation(projects.configApi)
+
+    implementation(projects.network)
+    implementation(projects.serialization)
+
+//    implementation(projects.timeApi)
+    implementation(projects.timeImpl)
+
+    implementation(projects.postApi)
+    implementation(projects.postImpl)
+
+    implementation(projects.theme)
+    implementation(projects.lifecycle)
+
+    implementation(projects.shareApi)
+    implementation(projects.shareImpl)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)

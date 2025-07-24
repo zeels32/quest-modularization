@@ -17,12 +17,28 @@
         </compositeConfiguration>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/analytics-api" />
+            <option value="$PROJECT_DIR$/analytics-impl" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/config-api" />
+            <option value="$PROJECT_DIR$/config-impl" />
+            <option value="$PROJECT_DIR$/lifecycle" />
+            <option value="$PROJECT_DIR$/logging-api" />
+            <option value="$PROJECT_DIR$/logging-impl" />
+            <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/post-api" />
+            <option value="$PROJECT_DIR$/post-impl" />
+            <option value="$PROJECT_DIR$/serialization" />
+            <option value="$PROJECT_DIR$/share-api" />
+            <option value="$PROJECT_DIR$/share-impl" />
+            <option value="$PROJECT_DIR$/theme" />
+            <option value="$PROJECT_DIR$/time-api" />
+            <option value="$PROJECT_DIR$/time-impl" />
           </set>
         </option>
       </GradleProjectSettings>

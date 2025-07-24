@@ -1,6 +1,7 @@
 package com.azabost.quest.posts.remote
 
-import com.azabost.quest.posts.model.Post
+import com.azabost.quest.post_api.model.Post
+import com.azabost.quest.post_impl.RemotePostsCache
 import com.azabost.quest.time.FakeNowProvider
 import org.junit.Assert.assertEquals
 import org.junit.Test
