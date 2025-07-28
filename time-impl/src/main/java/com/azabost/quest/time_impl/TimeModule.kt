@@ -1,3 +1,5 @@
+package com.azabost.quest.time_impl
+
 import com.azabost.quest.time.NowProvider
 import dagger.Binds
 import dagger.Module

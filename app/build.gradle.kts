@@ -59,11 +59,12 @@ dependencies {
     implementation(projects.analyticsImpl)
 
     implementation(projects.configApi)
+    implementation(projects.configImpl)
 
     implementation(projects.network)
     implementation(projects.serialization)
 
-//    implementation(projects.timeApi)
+    implementation(projects.timeApi)
     implementation(projects.timeImpl)
 
     implementation(projects.postApi)

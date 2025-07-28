@@ -27,8 +27,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".posts.ui.list.PostsActivity" />
-        <activity android:name=".posts.ui.details.PostDetailsActivity" />
     </application>
 
 </manifest>
