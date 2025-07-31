@@ -3,6 +3,7 @@ import com.azabost.quest.build.Config
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.testFixtures)
 }
 
 android {
